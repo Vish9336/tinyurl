@@ -4,7 +4,7 @@ import tinyurl from './models/tinyurl.js';
 
 const router = express.Router();
 
-// Define a GET route for the home page
+// Define a GET route for the home pages
 router.get('/', (req, res) => {
   res.send('Hello from the Home Page!');
 });
