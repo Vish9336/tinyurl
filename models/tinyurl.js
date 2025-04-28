@@ -2,6 +2,7 @@
 import { DataTypes } from 'sequelize';
 import sequelize from './index.js';
 
+
 const tinyurl = sequelize.define('tinyurl', {
   url: {
     type: DataTypes.STRING,
